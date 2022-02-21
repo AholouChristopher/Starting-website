@@ -10,6 +10,7 @@ figcaption{
     color: rgba(0, 0, 0);
 
 }
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -741,7 +742,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color:white;
 }
 
 .portfolio-thumb {
@@ -1049,3 +1050,4 @@ strong{
         text-align: center;
     }
 }
+
