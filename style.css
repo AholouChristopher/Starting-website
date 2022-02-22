@@ -340,7 +340,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    border: 1px solid #F3976C;
+    background: #F3976C;;
 }
 
 .navbar-toggle {
@@ -349,8 +350,8 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
-}
+    border: 1px solid #F3976C;
+    background: #F3976C;;}
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
@@ -656,7 +657,7 @@ label,
 a {
     font-family: "fira sans";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -682,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "fira sans";
     font-weight: 400;
     color: #000000;
@@ -700,11 +701,12 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: rgb(255,255,255,1);
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    background: #F3976C;
 }
 
 .social {
@@ -731,11 +733,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -787,25 +789,21 @@ strong{
     line-height: 1.4em;
 }
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
-}
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
