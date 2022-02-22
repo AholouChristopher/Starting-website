@@ -651,7 +651,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -684,6 +683,9 @@ a {
 
 p {
     font-size: 11px;
+    font-family: "fira sans";
+    font-weight: 400;
+    color: #575757;
 }
 
 .tight-width-whitespace {
@@ -742,7 +744,7 @@ h4 {
 }
 
 .white {
-    color:white;
+    color:rgba(255, 255, 255, 1);
 }
 
 .portfolio-thumb {
