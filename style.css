@@ -18,8 +18,9 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration:dotted;
     cursor: pointer;
+    color:green;
 }
 
 #page-loading-blocs-notifaction {
@@ -175,6 +176,8 @@ a:hover {
 
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
+    
+
 }
 
 .d-bloc .panel icon {
@@ -341,9 +344,16 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     border: 1px solid #F3976C;
-    background: #F3976C;;
+    background: #F3976C;
 }
 
+a:focus{
+    border: 3px solid #F3976C;
+}
+footer a:focus, footer a:hover{
+    border: 3px solid black;
+
+}
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -704,7 +714,7 @@ p {
     color: rgb(255,255,255,1);
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     background: #F3976C;
 }
@@ -803,15 +813,20 @@ strong{
 }
 
 .ltc-white:hover {
-    color: #cccccc;
+    color: #0c0b0b;
+    border: 3px dashed white ;
+}
+.ltc-white:focus {
+    border: 3px dashed white ;
+              
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
