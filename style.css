@@ -750,6 +750,7 @@ p {
 
 }
 
+h1{ font-weight: bold;}
 h2 {
     font-size: 28px;
     line-height: 1.4em;
@@ -757,7 +758,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333;
@@ -800,7 +801,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(122, 131, 142, 0.9);
+    background-color: rgba(83, 98, 122, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
